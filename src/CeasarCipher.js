@@ -54,14 +54,14 @@ class CaesarCipher extends Component {
             className="btn"
             type="button"
           >
-            Decrypt
+            Encrypt
           </button>
           <button
             onClick={() => this.handelClick(1)}
             className="btn"
             type="button"
           >
-            Encrypt
+            Decrypt
           </button>
           <button className="btn" type="submit">
             RUN
@@ -76,12 +76,12 @@ class CaesarCipher extends Component {
     return mode === 1 ? (
       <div>
         <label htmlfor="inputText" class="visually-hidden">
-          Please Enter the text you want to encrypt:  </label>
+          Please Enter the text you want to decrypt:  </label>
         <textarea
           type="text"
           id="inputText"
           className="form-control"
-          placeholder="Text To Encrypt"
+          placeholder="Text To Decrypt"
           ref={this.inputText}
           autoFocus
           required
@@ -90,7 +90,7 @@ class CaesarCipher extends Component {
           type="number"
           id="EncryptKey"
           className="form-control"
-          placeholder="Encryption Key"
+          placeholder="Decryption Key"
           ref={this.EncryptKey}
           required
         ></textarea>
@@ -98,13 +98,13 @@ class CaesarCipher extends Component {
     ) : (
       <div>
         <label htmlfor="inputTextDecrypt" class="visually-hidden">
-          Please Enter the text you want to decrypt
+          Please Enter the text you want to encrypt
         </label>
         <textarea
           type="text"
           id="inputTextDecrypt"
           className="form-control"
-          placeholder="Text To Decrypt"
+          placeholder="Text To Encrypt"
           ref={this.inputTextDecrypt}
           required
         ></textarea>
@@ -112,7 +112,7 @@ class CaesarCipher extends Component {
           type="number"
           id="DecryptKey"
           className="form-control"
-          placeholder="Decryption Key"
+          placeholder="Encryption Key"
           ref={this.DecryptKey}
           required
         ></textarea>
