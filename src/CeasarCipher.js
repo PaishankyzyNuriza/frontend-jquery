@@ -50,18 +50,18 @@ class CaesarCipher extends Component {
           <h5>{this.formatResult()}</h5>
           <hr />
           <button
+            onClick={() => this.handelClick(2)}
+            className="btn"
+            type="button"
+          >
+            Decyrpt
+          </button>
+          <button
             onClick={() => this.handelClick(1)}
             className="btn"
             type="button"
           >
             Encrypt
-          </button>
-          <button
-            onClick={() => this.handelClick(2)}
-            className="btn"
-            type="button"
-          >
-            Decrypt
           </button>
           <button className="btn" type="submit">
             RUN
@@ -76,7 +76,7 @@ class CaesarCipher extends Component {
     return mode === 1 ? (
       <div>
         <label htmlfor="inputText" class="visually-hidden">
-          Please Enter the text you want to encrypt:  </label>
+          Please Enter the text you want to decrypt:  </label>
         <textarea
           type="text"
           id="inputText"
@@ -98,7 +98,7 @@ class CaesarCipher extends Component {
     ) : (
       <div>
         <label htmlfor="inputTextDecrypt" class="visually-hidden">
-          Please Enter the text you want to decrypt
+          Please Enter the text you want to encrypt
         </label>
         <textarea
           type="text"
