@@ -169,4 +169,3 @@ class CaesarCipher extends Component {
 }
 
 export default CaesarCipher;
-Footer
