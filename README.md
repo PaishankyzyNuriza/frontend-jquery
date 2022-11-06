@@ -8,7 +8,7 @@ React-Project
 
 ## Description Of The Project
 
-A React app with single TextArea Component. The textarea is wrapped into a component which changes state and reacts to typing and encoding. Allowing us to encode and decode texts which are provided in the TextArea.
+A React app with single TextArea Component. The textarea is wrapped into a component which changes state and reacts to typing, encoding and decoding.
 
 > [Deployed App Link](https://react-project-jy80a0vpe-aselesra.vercel.app/)
 
