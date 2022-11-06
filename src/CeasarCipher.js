@@ -73,7 +73,7 @@ class CaesarCipher extends Component {
 
   renderInputFields() {
     const { mode } = this.state;
-    return mode === 1 ? (
+    return mode === 2 ? (
       <div>
         <label htmlfor="inputText" class="visually-hidden">
           Please Enter the text you want to encrypt:  </label>
