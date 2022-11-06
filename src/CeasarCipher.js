@@ -50,14 +50,14 @@ class CaesarCipher extends Component {
           <h5>{this.formatResult()}</h5>
           <hr />
           <button
-            onClick={() => this.handelClick(2)}
+            onClick={() => this.handelClick(1)}
             className="btn"
             type="button"
           >
             Encrypt
           </button>
           <button
-            onClick={() => this.handelClick(1)}
+            onClick={() => this.handelClick(2)}
             className="btn"
             type="button"
           >
@@ -73,7 +73,7 @@ class CaesarCipher extends Component {
 
   renderInputFields() {
     const { mode } = this.state;
-    return mode === 2 ? (
+    return mode === 1 ? (
       <div>
         <label htmlfor="inputText" class="visually-hidden">
           Please Enter the text you want to encrypt:  </label>
@@ -104,7 +104,7 @@ class CaesarCipher extends Component {
           type="text"
           id="inputTextDecrypt"
           className="form-control"
-          placeholder="Text To Decyrpt"
+          placeholder="Text To Decrypt"
           ref={this.inputTextDecrypt}
           required
         ></textarea>
@@ -124,7 +124,7 @@ class CaesarCipher extends Component {
   ceaserCipher(text, key, option) {
     let decipher = "";
     // if option 1 is passed then Encrypt
-    if (option === 1) {
+    if (option === 2) {
       //decipher each letter
       for (let i = 0; i < text.length; i++) {
         // check for space
@@ -142,7 +142,7 @@ class CaesarCipher extends Component {
         }
       }
       return decipher;
-    } else if (option === 2) {
+    } else if (option === 1) {
       // if option 2 is passed then Decrypt
       //decipher each letter
       for (let i = 0; i < text.length; i++) {
