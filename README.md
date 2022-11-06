@@ -29,3 +29,16 @@ encryption code = 4
 output --> Viegx
 
 <img src="https://user-images.githubusercontent.com/64264345/200199369-74bb19d8-4387-4c5e-9fd2-cb50ec5ea25a.png" width="800">
+
+We use the given shift in the opposite direction to decrypt the original text.
+For example:
+
+text = Viegx
+
+encryption code = 4 
+
+output --> React
+
+<img src="https://user-images.githubusercontent.com/64264345/200199748-e3bc6082-da22-4503-b7b2-09386376dff8.png" width="800">
+
+
