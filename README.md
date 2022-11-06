@@ -41,11 +41,9 @@ output --> React
 
 <img src="https://user-images.githubusercontent.com/64264345/200199748-e3bc6082-da22-4503-b7b2-09386376dff8.png" width="800">
 
-### AIU Logo
+### AIU animated Logo
 
-<img src="https://user-images.githubusercontent.com/64264345/200199821-005ff3fd-ae5a-4939-82e6-0216d5dfacb2.png" width="200">
-<img src="https://user-images.githubusercontent.com/64264345/200199859-422475a3-ea9d-4255-99e1-a6a0fc8dd1d6.png" width="200">
-<img src="https://user-images.githubusercontent.com/64264345/200199891-010769c5-6e81-48a3-8239-3bdae86fe342.png" width="200">
+<img src="https://user-images.githubusercontent.com/64264345/200199859-422475a3-ea9d-4255-99e1-a6a0fc8dd1d6.png" width="200"> <img src="https://user-images.githubusercontent.com/64264345/200199891-010769c5-6e81-48a3-8239-3bdae86fe342.png" width="200"> <img src="https://user-images.githubusercontent.com/64264345/200199944-9f8484ee-f9d6-42d3-856d-f098bb46aee0.png" width="208"> 
 
 
 
