@@ -78,7 +78,7 @@ class CaesarCipher extends Component {
           type="text"
           id="inputText"
           className="form-control"
-          placeholder="Text To Encrypt"
+          placeholder="Text To Decrypt"
           ref={this.inputText}
           autoFocus
           required
@@ -101,7 +101,7 @@ class CaesarCipher extends Component {
           type="text"
           id="inputTextDecrypt"
           className="form-control"
-          placeholder="Text To Decrypt"
+          placeholder="Text To Encrypt"
           ref={this.inputTextDecrypt}
           required
         ></textarea>
