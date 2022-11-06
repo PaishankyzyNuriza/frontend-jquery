@@ -54,14 +54,14 @@ class CaesarCipher extends Component {
             className="btn"
             type="button"
           >
-            Encrypt
+            Decrypt
           </button>
           <button
             onClick={() => this.handelClick(1)}
             className="btn"
             type="button"
           >
-            Decrypt
+            Encrypt
           </button>
           <button className="btn" type="submit">
             RUN
