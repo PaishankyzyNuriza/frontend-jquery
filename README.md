@@ -12,7 +12,7 @@ A React app with single TextArea Component. The textarea is wrapped into a compo
 
 Final result:
 
-![Nuriza image one](docs\assets\nuriza.PNG)
+![Nuriza image one](./docs/assets/nuriza.PNG)
 
 
 ### The Algorithm
